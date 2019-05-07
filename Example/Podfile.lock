@@ -1,0 +1,16 @@
+PODS:
+  - CSPageController (0.1.0)
+
+DEPENDENCIES:
+  - CSPageController (from `../`)
+
+EXTERNAL SOURCES:
+  CSPageController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSPageController: 117547094a718137b8af8284a270c686e27c3c4a
+
+PODFILE CHECKSUM: f0a9c2420fe05453aad5a8cb091cb98d1ec23bda
+
+COCOAPODS: 1.6.1

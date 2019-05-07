@@ -1,0 +1,6 @@
+framework module CSPageController {
+  umbrella header "CSPageController-umbrella.h"
+
+  export *
+  module * { export * }
+}
