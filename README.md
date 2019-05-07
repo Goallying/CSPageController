@@ -1,6 +1,6 @@
 # CSPageController
 
-[![CI Status](https://img.shields.io/travis/szzhongyu2018@163.com/CSPageController.svg?style=flat)](https://travis-ci.org/szzhongyu2018@163.com/CSPageController)
+[![CI Status](https://img.shields.io/travis/1310186683@qq.com/CSPageController.svg?style=flat)](https://travis-ci.org/1310186683@qq.com/CSPageController)
 [![Version](https://img.shields.io/cocoapods/v/CSPageController.svg?style=flat)](https://cocoapods.org/pods/CSPageController)
 [![License](https://img.shields.io/cocoapods/l/CSPageController.svg?style=flat)](https://cocoapods.org/pods/CSPageController)
 [![Platform](https://img.shields.io/cocoapods/p/CSPageController.svg?style=flat)](https://cocoapods.org/pods/CSPageController)
@@ -22,7 +22,7 @@ pod 'CSPageController'
 
 ## Author
 
-szzhongyu2018@163.com, szzhongyu2018@163.com
+Goallying, 1310186683@qq.com
 
 ## License
 
