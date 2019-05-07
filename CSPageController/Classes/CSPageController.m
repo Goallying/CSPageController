@@ -38,8 +38,6 @@
         make.left.bottom.right.mas_equalTo(self.view);
     }];
     [self _reloadData];
-    
-    NSLog(@"my test");
 }
 - (void)reloadData{
     _selectedIndex = 0 ;
