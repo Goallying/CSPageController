@@ -1,15 +1,22 @@
 PODS:
-  - CSPageController (0.1.0)
+  - CSPageController (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - CSPageController (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
 
 EXTERNAL SOURCES:
   CSPageController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CSPageController: 117547094a718137b8af8284a270c686e27c3c4a
+  CSPageController: 0158e90d504b39ab880fedd9b613e5d1f02e4f13
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: f0a9c2420fe05453aad5a8cb091cb98d1ec23bda
 

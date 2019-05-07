@@ -31,7 +31,7 @@
     [self.titleScrView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.left.mas_equalTo(self.view);
         make.height.mas_equalTo(44);
-        make.width.mas_equalTo(SCREEN_WIDTH);
+        make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width);
     }];
     [self.pageController.view mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(40);
@@ -70,7 +70,7 @@
             }
             if ([self.delegate respondsToSelector:@selector(pageController:titleForViewControllerAtIndex:)]) {
                 NSString * title = [self.delegate pageController:self titleForViewControllerAtIndex:i];
-                CGFloat btnWidth = SCREEN_WIDTH/c ;
+                CGFloat btnWidth = [UIScreen mainScreen].bounds.size.width/c ;
                 if (self.headerScrollable) {
                     CGSize size = [title boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, 44) options:0 attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]} context:nil].size ;
                     btnWidth = size.width ;
@@ -81,7 +81,7 @@
                 if (self.lineWidth > 0) {
                     btn.lineWidth = self.lineWidth ;
                 }
-                [btn setTitleColor:GET_COLOR_BY_LONG(0x333333) forState:UIControlStateNormal];
+                [btn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
                 [btn setTitleColor:textColor forState:UIControlStateSelected];
                 [btn setTitle:title forState:UIControlStateNormal];
                 [btn.titleLabel setFont:[UIFont systemFontOfSize:16]];
@@ -127,7 +127,7 @@
 }
 -(void)scrollViewOffset:(UIButton *)button
 {
-    CGFloat f = SCREEN_WIDTH - 44;
+    CGFloat f = [UIScreen mainScreen].bounds.size.width - 44;
     if (!(_titleScrView.contentSize.width> f)) {
         return;
     }

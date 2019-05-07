@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "a pageController.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/szzhongyu2018@163.com/CSPageController",
+  "homepage": "https://github.com/Goallying/CSPageController",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CSPageController/Classes/**/*"
+  "source_files": "CSPageController/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }

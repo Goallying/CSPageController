@@ -11,6 +11,7 @@
 #endif
 
 #import "CSBaselineButton.h"
+#import "CSButton.h"
 #import "CSPageController.h"
 
 FOUNDATION_EXPORT double CSPageControllerVersionNumber;
