@@ -15,9 +15,9 @@
 {
     [super drawRect:rect];
     if (self.selected) {
-        CGFloat lineWidth = 2.0;
-        if (self.lineWidth>0) {
-            lineWidth = self.lineWidth ;
+        CGFloat lineHeight = 2.0;
+        if (self.lineHeight>0) {
+            lineHeight = self.lineHeight ;
         }
         CGColorRef color = [UIColor whiteColor].CGColor;
         if (self.lineColor) {
@@ -25,9 +25,19 @@
         }
         CGContextRef ctx = UIGraphicsGetCurrentContext();
         CGContextSetStrokeColorWithColor(ctx, color);
-        CGContextSetLineWidth(ctx, lineWidth);
-        CGContextMoveToPoint(ctx, 0, self.frame.size.height - lineWidth - self.bottomLineOffset);
-        CGContextAddLineToPoint(ctx, self.frame.size.width, self.frame.size.height - lineWidth - self. bottomLineOffset);
+        CGContextSetLineWidth(ctx, lineHeight);
+        if (self.headerTextFlexibleWidth) {
+            CGFloat sizeWidth = [self.titleLabel.text boundingRectWithSize:CGSizeMake(MAXFLOAT, 40)
+                                                  options:NSStringDrawingUsesLineFragmentOrigin
+                                               attributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:15]}
+                                                  context:nil].size.width;
+            
+            CGContextMoveToPoint(ctx, (self.frame.size.width - sizeWidth)*0.5, self.frame.size.height - lineHeight - self.bottomLineOffset);
+            CGContextAddLineToPoint(ctx, self.frame.size.width - (self.frame.size.width - sizeWidth)*0.5, self.frame.size.height - lineHeight - self. bottomLineOffset);
+        }else{
+            CGContextMoveToPoint(ctx, 0, self.frame.size.height - lineHeight - self.bottomLineOffset);
+            CGContextAddLineToPoint(ctx, self.frame.size.width, self.frame.size.height - lineHeight - self. bottomLineOffset);
+        }
         CGContextStrokePath(ctx);
     }
 }

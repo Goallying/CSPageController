@@ -11,8 +11,9 @@
 #endif
 
 #import "CSBaselineButton.h"
-#import "CSButton.h"
 #import "CSPageController.h"
+#import "CSPageView.h"
+#import "UIViewController+Identifier.h"
 
 FOUNDATION_EXPORT double CSPageControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char CSPageControllerVersionString[];

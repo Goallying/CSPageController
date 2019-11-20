@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CFD417223853ED60022857A /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD416923853ED50022857A /* ViewController1.m */; };
+		5CFD417323853ED60022857A /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CFD416B23853ED50022857A /* ViewController3.xib */; };
+		5CFD417423853ED60022857A /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CFD416C23853ED50022857A /* ViewController2.xib */; };
+		5CFD417523853ED60022857A /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD416E23853ED50022857A /* ViewController2.m */; };
+		5CFD417623853ED60022857A /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD417023853ED50022857A /* ViewController3.m */; };
+		5CFD417723853ED60022857A /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CFD417123853ED50022857A /* ViewController1.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +44,15 @@
 
 /* Begin PBXFileReference section */
 		29B7E540EE8E18069D7810EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5CFD416923853ED50022857A /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		5CFD416A23853ED50022857A /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		5CFD416B23853ED50022857A /* ViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController3.xib; sourceTree = "<group>"; };
+		5CFD416C23853ED50022857A /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		5CFD416D23853ED50022857A /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		5CFD416E23853ED50022857A /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		5CFD416F23853ED50022857A /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		5CFD417023853ED50022857A /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		5CFD417123853ED50022857A /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
 		5DB6AAA61306CDB48F4E1705 /* Pods-CSPageController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSPageController_Example.debug.xcconfig"; path = "Target Support Files/Pods-CSPageController_Example/Pods-CSPageController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CSPageController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSPageController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +158,15 @@
 		6003F593195388D20070C39A /* Example for CSPageController */ = {
 			isa = PBXGroup;
 			children = (
+				5CFD416F23853ED50022857A /* ViewController1.h */,
+				5CFD416923853ED50022857A /* ViewController1.m */,
+				5CFD417123853ED50022857A /* ViewController1.xib */,
+				5CFD416D23853ED50022857A /* ViewController2.h */,
+				5CFD416E23853ED50022857A /* ViewController2.m */,
+				5CFD416C23853ED50022857A /* ViewController2.xib */,
+				5CFD416A23853ED50022857A /* ViewController3.h */,
+				5CFD417023853ED50022857A /* ViewController3.m */,
+				5CFD416B23853ED50022857A /* ViewController3.xib */,
 				6003F59C195388D20070C39A /* CSAppDelegate.h */,
 				6003F59D195388D20070C39A /* CSAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -257,6 +281,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -276,10 +301,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFD417723853ED60022857A /* ViewController1.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				5CFD417423853ED60022857A /* ViewController2.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				5CFD417323853ED60022857A /* ViewController3.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +397,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFD417223853ED60022857A /* ViewController1.m in Sources */,
 				6003F59E195388D20070C39A /* CSAppDelegate.m in Sources */,
+				5CFD417623853ED60022857A /* ViewController3.m in Sources */,
+				5CFD417523853ED60022857A /* ViewController2.m in Sources */,
 				6003F5A7195388D20070C39A /* CSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

@@ -27,3 +27,7 @@ Goallying, 1310186683@qq.com
 ## License
 
 CSPageController is available under the MIT license. See the LICENSE file for more info.
+
+
+更新：
+为了提高性能，提供了类似tableView 的复用功能，重构了代码。
