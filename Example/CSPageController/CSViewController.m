@@ -27,7 +27,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self.pageController registeViewControllerClass:[ViewController1 class] forReuseIdentifier:@"VC1"];
+      [self.pageController registeViewControllerClass:[ViewController1 class] forReuseIdentifier:@"VC1"];
       [self.pageController registeViewControllerClass:[ViewController2 class] forReuseIdentifier:@"VC2"];
       [self.pageController registeViewControllerClass:[ViewController3 class] forReuseIdentifier:@"VC3"];
 

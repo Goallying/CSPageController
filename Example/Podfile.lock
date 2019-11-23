@@ -1,5 +1,5 @@
 PODS:
-  - CSPageController (0.3.0):
+  - CSPageController (1.0.0):
     - Masonry
   - Masonry (1.1.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CSPageController: 1497dc977745310b2cb28bfb0cad3a5f20c2fcc6
+  CSPageController: 6813a584e20f23b0741d9d214bfa548c177a735e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: f0a9c2420fe05453aad5a8cb091cb98d1ec23bda

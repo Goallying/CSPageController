@@ -1,6 +1,6 @@
 {
   "name": "CSPageController",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "summary": "a pageController.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Goallying/CSPageController",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Goallying/CSPageController.git",
-    "tag": "0.3.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
